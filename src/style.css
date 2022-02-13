@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    color: white;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--title {
+    margin-left: 7px;
+    font-weight: 500;
+}
+
+.navbar--icon {
+    width: 32px;
+    height: 32px;
+}
+
+.card {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card--picture {
+    width: 325px;
+    height: 368px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.card--info {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 50vw;
+}
+
+.card--info-icon {
+    color: #F55A5A;
+}
+
+.card--info-name {
+    margin-left: 8px;
+    margin-right: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.card--info-link {
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--info-title {
+    font-size: 38px;
+    margin-top: 4px;
+}
+
+.card--info-date {
+    margin-top: 7px;
+}
+
+.card--info-description {
+    margin-top: 9px;
+    text-align: justify;
+}
